@@ -2,16 +2,16 @@
 
 library(plyr)
 
-xtrain<-read.table("./UCI HAR Dataset/train/x_train.txt")
-ytrain<-read.table("./UCI HAR Dataset/train/y_train.txt")
-subjecttrain<-read.table("./UCI HAR Dataset/train/subject_train.txt")
+xtrain<-read.table("./getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset/train/x_train.txt")
+ytrain<-read.table("./getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset/train/y_train.txt")
+subjecttrain<-read.table("./getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset/train/subject_train.txt")
 
-xtest<-read.table("./UCI HAR Dataset/test/X_test.txt")
-ytest<-read.table("./UCI HAR Dataset/test/y_test.txt")
-subjecttest<-read.table("./UCI HAR Dataset/test/subject_test.txt")
+xtest<-read.table("./getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset/test/X_test.txt")
+ytest<-read.table("./getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset/test/y_test.txt")
+subjecttest<-read.table("./getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset/test/subject_test.txt")
 
-activitylabels<-read.table("./UCI HAR Dataset/activity_labels.txt")
-features<-read.table("./UCI HAR Dataset/features.txt")
+activitylabels<-read.table("./getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset/activity_labels.txt")
+features<-read.table("./getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset/features.txt")
 
 ## Merges the training and the test sets to create one data set
 
